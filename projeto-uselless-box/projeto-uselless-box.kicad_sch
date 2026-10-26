@@ -2283,16 +2283,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 91.44) (xy 215.9 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "097d04e0-5b58-4128-baea-11b8ada2fb66")
-	)
-	(wire
-		(pts
 			(xy 76.2 62.23) (xy 72.39 62.23)
 		)
 		(stroke
@@ -2350,6 +2340,16 @@
 			(type default)
 		)
 		(uuid "43c06d34-ff2d-48b6-b566-7e6bcab3568a")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d2af8a-fda7-4ff4-988f-a8154af9c342")
 	)
 	(wire
 		(pts
@@ -2443,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 91.44) (xy 177.8 92.71)
+			(xy 166.37 91.44) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2595,7 +2595,7 @@
 			)
 		)
 	)
-	(global_label "D8"
+	(global_label "D9"
 		(shape input)
 		(at 128.27 43.18 180)
 		(fields_autoplaced yes)
@@ -2639,9 +2639,9 @@
 			)
 		)
 	)
-	(global_label "D7"
+	(global_label "D8"
 		(shape input)
-		(at 162.56 97.79 180)
+		(at 151.13 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2651,7 +2651,7 @@
 		)
 		(uuid "4299b6bb-5b60-4cbe-918a-20eac5e7ce5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0953 97.79 0)
+			(at 145.6653 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,28 +2749,6 @@
 			)
 		)
 	)
-	(global_label "D6"
-		(shape input)
-		(at 200.66 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ea9b01a-0ab6-47fc-a54d-04cdfc1b4361")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.1953 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OUT1"
 		(shape input)
 		(at 207.01 59.69 0)
@@ -2817,7 +2795,7 @@
 	)
 	(global_label "OUT1"
 		(shape input)
-		(at 177.8 91.44 90)
+		(at 166.37 91.44 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2827,7 +2805,29 @@
 		)
 		(uuid "af785dad-7d91-4a06-b6aa-8983fdf8c61d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 83.6167 90)
+			(at 166.37 83.6167 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D9"
+		(shape input)
+		(at 76.2 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8f02218-affc-4b38-b39a-88a6c7814f7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.6647 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,31 +2903,9 @@
 			)
 		)
 	)
-	(global_label "OUT1"
-		(shape input)
-		(at 215.9 91.44 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3a8b681-9ce7-4958-874f-07a27d8d5cdc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 83.6167 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 97.79 90)
+		(at 154.94 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2936,7 +2914,7 @@
 		(fields_autoplaced yes)
 		(uuid "02643fa3-87c6-4975-ad03-4d3da68c52d5")
 		(property "Reference" "R2"
-			(at 166.37 91.44 90)
+			(at 154.94 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +2922,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 166.37 93.98 90)
+			(at 154.94 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +2930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 99.568 90)
+			(at 154.94 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,7 +2939,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 97.79 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +2948,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 97.79 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,100 +3101,6 @@
 			(project "projeto-uselless-box"
 				(path "/398e8c13-01ac-465c-9d62-639ab1dd3b48"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC337")
-		(at 213.36 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1efd14e0-490a-41c6-ba58-c00238a59940")
-		(property "Reference" "Q2"
-			(at 218.44 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC337"
-			(at 218.44 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 218.44 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
-			(at 213.36 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
-			(at 213.36 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 213.36 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 213.36 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "91994e3a-5995-4c5a-b6b2-fc6d2b3f4e7c")
-		)
-		(pin "1"
-			(uuid "b358c211-470e-407f-bf0c-d13274ddf81f")
-		)
-		(pin "3"
-			(uuid "c884030c-8c0e-46dc-9188-bf03d9051cf3")
-		)
-		(instances
-			(project "projeto-uselless-box"
-				(path "/398e8c13-01ac-465c-9d62-639ab1dd3b48"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3653,7 +3537,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 177.8 107.95 0)
+		(at 166.37 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3662,7 +3546,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a57cd52-352b-45a0-b78c-092a7f9f61e9")
 		(property "Reference" "M4"
-			(at 182.88 109.2199 0)
+			(at 171.45 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3555,7 @@
 			)
 		)
 		(property "Value" "Fita de Led"
-			(at 182.88 111.7599 0)
+			(at 171.45 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 110.236 0)
+			(at 166.37 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +3573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 110.236 0)
+			(at 166.37 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +3582,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 177.8 107.95 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3607,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 115.57 0)
+		(at 166.37 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3732,7 +3616,7 @@
 		(dnp no)
 		(uuid "43067b67-cbf8-4a0f-b6f1-a6c7c7ed9fe4")
 		(property "Reference" "#PWR012"
-			(at 177.8 121.92 0)
+			(at 166.37 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3625,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 120.65 90)
+			(at 166.37 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +3633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 115.57 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 115.57 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 115.57 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,144 +4015,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 204.47 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f61ef2b-4d9f-4846-bd00-d9a0868c4754")
-		(property "Reference" "R3"
-			(at 204.47 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 204.47 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "62fd77cc-d92f-4451-89e3-5f4c144ef9e8")
-		)
-		(pin "1"
-			(uuid "93abdad2-d2c6-4aa8-ba5a-1d1eef31e172")
-		)
-		(instances
-			(project "projeto-uselless-box"
-				(path "/398e8c13-01ac-465c-9d62-639ab1dd3b48"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 215.9 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92931cab-3624-4ecf-afc0-2fefbf6000a0")
-		(property "Reference" "M5"
-			(at 220.98 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Auto Falante"
-			(at 220.98 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 110.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 110.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 215.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b121859e-526b-45d8-8d09-e9e830bf2608")
-		)
-		(pin "2"
-			(uuid "57b13b75-26bd-4cbc-8dd0-8fc8fc78b997")
-		)
-		(instances
-			(project "projeto-uselless-box"
-				(path "/398e8c13-01ac-465c-9d62-639ab1dd3b48"
-					(reference "M5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 128.27 57.15 90)
 		(mirror x)
@@ -4507,16 +4253,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC337")
-		(at 175.26 97.79 0)
+		(at 163.83 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2ca8799-3006-4d15-bf6e-27279ae062d5")
 		(property "Reference" "Q1"
-			(at 180.34 96.5199 0)
+			(at 168.91 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4270,7 @@
 			)
 		)
 		(property "Value" "BC337"
-			(at 180.34 99.0599 0)
+			(at 168.91 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4279,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 180.34 99.695 0)
+			(at 168.91 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4290,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
-			(at 175.26 97.79 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4300,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
-			(at 175.26 97.79 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4309,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 175.26 97.79 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +4318,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 175.26 97.79 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,72 +4694,6 @@
 			(project "projeto-uselless-box"
 				(path "/398e8c13-01ac-465c-9d62-639ab1dd3b48"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 115.57 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff935cc5-a49a-43ac-b8ca-7f3d122cc532")
-		(property "Reference" "#PWR010"
-			(at 215.9 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "640b1426-ec34-4664-9c0f-8829758d92ef")
-		)
-		(instances
-			(project "projeto-uselless-box"
-				(path "/398e8c13-01ac-465c-9d62-639ab1dd3b48"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)

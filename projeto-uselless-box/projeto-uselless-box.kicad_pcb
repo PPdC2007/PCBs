@@ -4285,8 +4285,8 @@
 		)
 	)
 	(gr_rect
-		(start 67 50)
-		(end 224 150)
+		(start 70 52.5)
+		(end 221.5 148)
 		(stroke
 			(width 0.2)
 			(type default)
